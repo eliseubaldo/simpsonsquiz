@@ -1,0 +1,223 @@
+/* Colors */
+
+div{box-sizing:border-box;}
+
+.yellow{color:#FECB00;}
+.blue{color:#0073CF;}
+.red{color:#DE3831;}
+.gray{color:#4D5357;}
+.green{color:#BDE18A;}
+.bluelight{color:#72C7E7;}
+.brown{color:#B3995D;}
+
+.score{
+	color:white;
+	text-align: center;
+}
+
+
+body{
+	background:url(../images/sky.jpg) no-repeat top center #9adbfb;
+	background-size: 100% auto;
+	font-size: 1.5em;
+
+}
+
+h2{color:white; text-shadow: -2px 2px 0px black;
+}
+
+p{text-shadow: -2px 2px 0px black;}
+
+h4{border-bottom:0px dashed white; color:white;}
+
+.container{position: relative;}
+
+.negMargin{
+	margin-top:-17px;
+}
+
+header{
+	margin:20px 0;
+}
+
+.logo{width:150px;}
+
+.textCenter{text-align: center;}
+
+.loader{
+	display:none;
+	padding:20px;
+	width:300px;
+	background:white;
+	color:black;
+	position:absolute;
+	top:45%;
+	left:50%;
+	margin-left:-150px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px 1px black;
+	z-index:1000;
+}
+.loaderTxt{text-align: center;}
+
+.mainGame{
+	 display:none; 
+}
+
+.endQuiz{display:none;}
+
+.computer{
+	background:rgba(00,73,207,0.9);
+	position: relative;
+	min-height:160px;
+	padding:20px 0;
+}
+
+.player{
+	background:rgba(189,225,138,0.9);
+	min-height:160px;
+	padding: 20px 0;
+	
+}
+
+.opponentBox{
+	position: absolute;
+	width:120px;
+	height:auto;
+	left:50%;
+	margin-left:-50px;
+
+}
+
+.playerPic, .oponentPic{ 
+	width:80px; height:80px; 
+	background-color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	text-align: center;
+  	padding: 10px;
+  	margin:0 auto;
+  	background-size: auto 100%;
+}
+
+.playerName{
+	margin-top:-5px;
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-radius:50px;
+	height:30px;
+	color:#0073CF;
+	font-weight: bold;
+	width:110px;
+	background:white;
+	padding:1px 5px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.yearpick{
+	background:#FECB00;
+
+	}
+
+.ChosenYear{
+	text-align: center;
+	color:blue;
+	font-size:2em;
+	margin:20px 0;
+}
+
+.episodeTitle{
+	color:white;
+	padding:1em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.answer{
+	padding:20px;
+}
+
+.answerBadge{
+  width: 100px;
+  height: 100px;
+  background:#DE3831;
+  border: 3px solid white;
+  box-shadow: 0px 3px 0px 0px black;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+  left:50%;
+  top:5%;
+  margin-left:-50px;
+  display:none;
+  position:absolute;
+
+
+
+  z-index:5;
+}
+
+.rightAns{background:#BDE18A !important;}
+
+.btn-answer{
+	background:#72C7E7;
+	min-height: 50px;
+  	min-width: 100px;
+  	border-radius: 5px;
+  	box-shadow:0px 3px 0px 0px #0073CF;
+  	margin:0 5px;
+}
+
+.btChoice.btn[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=1) !important;
+  -webkit-box-shadow:0px 0px 6px 5px #0073FA;
+  box-shadow: 0px 0px 6px 5px #0073FA;
+  opacity: 1 !important;	
+}
+
+.btnStart{
+	margin:20px 0;
+	box-shadow:0px 3px 0px 0px black;
+	font-size:1.5em;
+	color:white;
+	background-color:#0073CF;
+
+}
+
+.inputPlayer{
+	font-size: 1.2em;
+	color:#0073cf;
+	width:24%;
+	height:46px;
+	margin-left:37.8%;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.btChoice{
+	  box-shadow: 0px 0px 6px 5px #0073FA;
+	}
+
+.scoreResults{
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-radius:50px;
+	height:30px;
+	color:#0073CF;
+	font-weight: bold;
+	background:white;
+	max-width:300px;
+	padding:1px 5px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
