@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+        <script src="JSframeworks/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    </head>
+
+
+    <body>
+      <div class="loader">
+        <h5 class="loaderTxt"></h5>
+      </div>
+
+      <header id="header" class="">
+        <div class="container textCenter">
+          <img src="images/logo-simpsons.png" class="logo" alt="">
+          <h2 class="text-center">Episode year trivia battle</h2>
+        </div>
+        
+      </header><!-- /header -->
+
+<!-- Welcome Screen -->
+
+<section class="welcome">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h4>Enter your Name</h4>
+        <input type="text" class="form-control inputPlayer">
+      </div>
+      <button class="btn btnStart" id="start">Start!</button>  
+    </div>
+  </div>
+</section>
+
+
+<!-- Main Game -->
+<div class="mainGame">
+
+    <section class="bigQuestion">
+      <div class="container">
+
+        <h3 id="compTitle" class="episodeTitle">Episode Title</h3>
+
+
+          
+
+        <p class="ChosenYear">
+
+          <span class="fancyBefore">Before</span> or 
+          <span class="fancyAfter">After</span>year &nbsp; 
+          <span class="rndYear">1997</span>
+          <span class="fancyQuestionmark">?</span>
+        </p>
+
+
+      </div>
+    </section>
+
+
+
+<section class="playersBG">
+
+    <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="row computer">
+
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="opponentBox">
+                         <div class="oponentPic"></div>
+                         <div class="playerName oponentName"></div>
+                         <p class="score">Score: <span class="cPoints"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+
+                     
+
+                      <div class="cAnswer text-center">
+                      
+                      <p><button type="" class="btn btn-answer" data-asw="before">Before</button></p>
+                      <p><button type="" class="btn btn-answer" data-asw="after">After</button></p>
+                      </div>
+                    </div>
+                    
+                    <div class="answerBadge">Wrong!</div>
+               
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="row player">
+                
+                  <div class="answerBadge">Wrong!</div>
+
+                  
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                      <div class="pAnswer text-center">
+                        <p><button type="" class="btn btn-answer" data-asw="before">Before</button></p>
+                        <p><button type="" class="btn  btn-answer" data-asw="after">After</button></p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6 playerBox">
+                      <div class="playerPic"></div>
+                      <div class="playerName">Player Name</div>
+                      <p class="score">Score: <span class="pPoints"></span></p>
+                    </div>
+                              
+                
+              </div>
+
+
+            </div>
+
+
+
+
+
+
+
+              
+
+           </div>
+
+
+
+
+          
+
+
+    </div>
+
+</section>
+
+
+</div><!-- main -->
+
+
+
+
+<!-- end Screen -->
+
+<section class="endQuiz">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h4>Quiz is Over</h4>
+
+        <h4 class="scoreResults">Your Points: <span class="pPoints"></span></h4>
+
+        <h4 class="scoreResults">Computer Points: <span class="cPoints"></span></h4>
+      </div>
+      <button class="btn btnStart" id="reStart">Play Again</button>  
+    </div>
+  </div>
+</section>
+
+
+      <script src="js/game.js" type="text/javascript" charset="utf-8" async defer></script>
+    </body>
+</html>

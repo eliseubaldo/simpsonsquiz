@@ -2,16 +2,17 @@
 
         
         var cPoints=0, pPoints = 0;
-        var qTotal = 24;
+        var qTotal = 5;
         var currQuestion = 0;
         var currOponent = 0;
         var rndYearPick = 0;
-        var rndPickC, rndPickP = [];
+        var rndPickC = [];
 
 
         var playerName = "Bart";
         var compAns = "";
         var playerAns = "";
+        var answCorrect ="";
         
         var req = new XMLHttpRequest();
         var url; 
@@ -102,54 +103,42 @@
                     endQuiz();
             }else{
 
-            // Remove badge
-            $('.answerBadge').hide();
-            $('.answerBadge').removeClass("rightAns animated flipInX");
+                nextOponent();
 
-            //Re-enable buttons
+                // Remove badge and text
+                $('.answerBadge').hide();
+                $('.answerBadge').text("Wrong!");
+                $('.answerBadge').removeClass("rightAns animated flipInX");
+
+
+                //Re-enable buttons
                 $('.btn-answer').prop('disabled', false);
 
-            //Get any random year as a comparison year for Player and computer       
-            rndYearPick = sliceYear(data[Math.floor(Math.random()*data.length)].airdate);
-            console.log("rnd year="+ rndYearPick);           
-            $('.ChosenYear').text("Year: "+ rndYearPick);
-           
-
-
-            // Chose episodes for Player and Computer
-            rndPickC = Math.floor(Math.random()*data.length);
-            rndPickP = Math.floor(Math.random()*data.length);
-
-            $('#compTitle').text("Is The Episode: "+data[rndPickC].Title);
-            $('#playerTitle').text("Is The Episode: "+data[rndPickP].Title);          
-
-            
+                //Get any random year as a comparison year for Player and computer       
+                rndYearPick = sliceYear(data[Math.floor(Math.random()*data.length)].airdate);
+                $('.rndYear').text(rndYearPick);
+               
+                // Chose episode
+                rndPickC = Math.floor(Math.random()*data.length);
+                $('#compTitle').addClass("animated slideInLeft");
+                $('#compTitle').text("Is The Episode: "+data[rndPickC].Title);
             }
 
         };
 
         
-        /* set answers 
-        $('.cAnswer .btn-answer').click(function(){
-            $('.cAnswer .btn-answer').removeClass("btChoice");
-            $(this).addClass("btChoice");
-            compAns = $(this).data("asw");
-            
-        }); */
+        /* set answers */      
 
-         $('.pAnswer > .btn-answer').click(function(){
-            $('.pAnswer .btn-answer').removeClass("btChoice");
+         $('.pAnswer > p .btn-answer').click(function(){
             $(this).addClass("btChoice");
             playerAns = $(this).data("asw");
 
             // computer answer choice
             var casw = Math.floor(Math.random()*2);
             if (casw) {
-                $('.cAnswer .btn-answer').removeClass("btChoice");
                 $('.cAnswer .btn-answer[data-asw="before"]').addClass("btChoice");
                 compAns = "before";
             }else{
-                $('.cAnswer .btn-answer').removeClass("btChoice");
                 $('.cAnswer .btn-answer[data-asw="after"]').addClass("btChoice");
                 compAns = "after";
             };
@@ -161,23 +150,21 @@
 
         function answer(){
 
+            // Slice and get the true airdate for the episode selected
             var compYearAirdate = sliceYear(data[rndPickC].airdate);
-            var playerYearAirdate = sliceYear(data[rndPickP].airdate);
-
-            console.log(compYearAirdate);
-
             
-            compYearAirdate > rndYearPick ? compCorrect = "after" : compCorrect = "before";
+ 
+            compYearAirdate > rndYearPick ? answCorrect = "after" : answCorrect = "before";
 
-            if(compAns == compCorrect){
+            if(compAns == answCorrect){
                 $('.computer .answerBadge').addClass("rightAns");
+                $('.computer .answerBadge').text("Right!");
                 cPoints ++;                
             }
 
-            playerYearAirdate > rndYearPick ? playerCorrect = "after" : playerCorrect = "before";
-
-            if(playerAns == playerCorrect){
+            if(playerAns == answCorrect){
                 $('.player .answerBadge').addClass("rightAns");
+                $('.player .answerBadge').text("Right!");
                 pPoints ++;
             }
            
@@ -189,17 +176,19 @@
             $('.answerBadge').show();
             $('.answerBadge').addClass("animated flipInX");
 
-
+            //Update points
             $('.pPoints').text(pPoints);
             $('.cPoints').text(cPoints);
 
             currQuestion ++;
             
+            //Remove animated class from episode title
+            $('#compTitle').removeClass("animated slideInLeft");
+
             window.setTimeout(function(){
 
                     $('.cAnswer .btn-answer').removeClass("btChoice");
                     $('.pAnswer .btn-answer').removeClass("btChoice");
-                    nextOponent();
                     nextQuestion();
                 },2000); 
 
@@ -210,12 +199,18 @@
 
         function endQuiz(){
 
+
+            $('.computer').addClass("animated slideOutLeft");
+            $('.yearpick').addClass("animated slideOutRight");
+            $('.player').addClass("animated slideOutLeft");
+
             $('.mainGame').fadeOut();
-            $('.endQuiz').slideDown();
+            $('.endQuiz').show();
+            $('.endQuiz').addClass("animated slideInLeft");
             
             cPoints=0, pPoints = 0;
             currQuestion = 1;
-            currOponent = 0;
+            
 
         }
 
@@ -253,6 +248,9 @@
         $('#reStart').click(function(){
             
             $('.endQuiz').fadeOut();
+            $('.computer').removeClass("animated slideOutLeft");
+            $('.yearpick').removeClass("animated slideOutRight");
+            $('.player').removeClass("animated slideOutLeft");
 
             startGame();
         })
