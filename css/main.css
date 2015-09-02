@@ -21,10 +21,14 @@ div{box-sizing:border-box;}
                 -1px 1px 0px black;
 }
 
-
+html {height:100%;}
 body{
-	background:url(../images/sky.jpg) no-repeat top center #9adbfb;
-	background-size: 100% auto;
+	background-color: #9adbfb;
+	background-image:  url(../images/cityscape.jpg),url(../images/sky.jpg);
+	background-position: center bottom,top center;
+	background-repeat: no-repeat;
+
+	background-size: 100% auto, 100% auto;
 	font-size: 1.5em;
 	font-family: 'Varela Round', sans-serif;
 
@@ -115,11 +119,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0073cf', end
 }
 
 .opponentBox{
-	position: absolute;
-	width:120px;
-	height:auto;
-	left:50%;
-	margin-left:-50px;
 
 }
 
@@ -152,6 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0073cf', end
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
+	text-transform: capitalize;
 }
 
 .bigQuestion{
@@ -320,10 +320,44 @@ footer{
 
  /*  -- media queries --*/
 
- @media screen and (max-width: 992px){
+@media screen and (max-width: 1024px){
 
- 	.bt-answer{
- 		min-height: 58px;
- 		width:100%;
+ 	.btn-answer{
+ 		min-height: 48px;
+ 		width:150px;
  	}
+ }
+
+@media screen and (max-width: 640px){
+
+ 	.btn-answer{
+ 		min-height: 40px;
+ 		width:124px;
+ 		font-size:1em;
+ 	}
+
+ 	.logo{width:96px;}
+
+ 	h2{font-size:1.2em; margin-top:5px;}
+
+ 	header{margin:10px 0;}
+
+ 	.episodeTitle{ font-size:1.3em; padding:0.5em;}
+
+ 	.ChosenYear{font-size:1.2em; margin:10px 0;}
+ }
+
+ @media screen and (max-width:360px){
+ 	.inputPlayer{width:150px; margin-left:27.8%;}
+
+ 	.episodeTitle{font-size:1em;}
+
+ 	h2, h3{
+	text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black
+             }
+    .ChosenYear{ font-size: 1em; text-shadow:0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, -1px 1px 0px #000, -1px 1px 0px #000;}
+
  }

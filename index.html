@@ -7,6 +7,8 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
         <script src="JSframeworks/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -17,7 +19,6 @@
 
         <link rel="stylesheet" type="text/css" href="css/main.css">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
 
 
@@ -40,7 +41,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <label class="blue"for="">Enter your Name</label>
+        <h4>Enter your Name</h4>
         <input type="text" class="form-control inputPlayer">
       </div>
       <button class="btn btnStart" id="start">Start!</button>  
@@ -52,91 +53,111 @@
 <!-- Main Game -->
 <div class="mainGame">
 
+    <section class="bigQuestion">
+      <div class="container">
+
+        <h3 id="compTitle" class="episodeTitle">Episode Title</h3>
+
+
+          
+
+        <p class="ChosenYear">
+
+          <span class="fancyBefore">Before</span> or 
+          <span class="fancyAfter">After</span>year &nbsp; 
+          <span class="rndYear">1997</span>
+          <span class="fancyQuestionmark">?</span>
+        </p>
+
+
+      </div>
+    </section>
 
 
 
-      <section class="computer">
-        <div class="container">
-          <div class="row">
+<section class="playersBG">
 
-              <div class="col-md-3 col-sm-3">
-                  <div class="opponentBox">
-                   <div class="oponentPic"></div>
-                   <div class="playerName oponentName"></div>
-                   <p class="score">Score: <span class="cPoints"></span></p>
-                  </div>
-              </div>
-
-              <div class="col-md-6 col-sm-6">
-                <div class="answerBadge">                  
-                </div>
-
-                <p id="compTitle" class="episodeTitle">Episode Title</p>
-              </div>
-
-            </div>             
-
-          <div class="row">
-            <div class="col-md-12">
-              <div class="cAnswer text-center">
-                <button type="" class="btn btn-answer" data-asw="before">Before</button>
-                <button type="" class="btn btn-answer" data-asw="after">After</button>
-              </div>
-            </div>            
-          </div>
-        </div>  
-      </section>
-
-
-
-
-
-
-      <section class="yearpick">
-          <div class="container">
-              <p class="ChosenYear">1997</p>
-          </div>
-      </section>
-
-
-
-
-
-
-
-      <section class="player">
-        <div class="container">
-          <div class="answerBadge"></div>
+    <div class="container">
 
           <div class="row">
-            <div class="col-md-12">
-              <div class="pAnswer text-center">
-                <button type="" class="btn btn-answer" data-asw="before">Before</button>
-                <button type="" class="btn  btn-answer" data-asw="after">After</button>
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="row computer">
+ 
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="opponentBox">
+                         <div class="oponentPic"></div>
+                         <div class="playerName oponentName"></div>
+                         <p class="score">Score: <span class="cPoints"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+
+                     
+
+                      <div class="cAnswer text-center">
+                      
+                      <p><button type="" class="btn btn-answer" data-asw="before">Before</button></p>
+                      <p><button type="" class="btn btn-answer" data-asw="after">After</button></p>
+                      </div>
+                    </div>
+                    
+                    <div class="answerBadge">Wrong!</div>
+               
               </div>
             </div>
-          </div>   
 
-          <div class="row">
-            <div class="col-md-3 col-sm-6"></div>
-            <div class="col-md-6 col-sm-6">
-                <p id="playerTitle" class="episodeTitle">Player Title</p>
-            </div> 
 
-            <div class="col-md-3 col-sm-3 playerBox">
-              <div class="playerPic"></div>
-              <div class="playerName">Player Name</div>
-              <p class="score">Score: <span class="pPoints"></span></p>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+              <div class="row player">
+                
+                  <div class="answerBadge">Wrong!</div>
+
+                  
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                      <div class="pAnswer text-center">
+                        <p><button type="" class="btn btn-answer" data-asw="before">Before</button></p>
+                        <p><button type="" class="btn  btn-answer" data-asw="after">After</button></p>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                      <div class="playerBox">
+                       <div class="playerPic"></div>
+                        <div class="playerName">Player Name</div>
+                        <p class="score">Score: <span class="pPoints"></span></p>
+                      </div>
+                    </div>
+                              
+                
+              </div>
+
+
             </div>
 
-          </div>
-                       
-        </div>
-      </section>
 
 
 
-</div>
+
+
+
+              
+
+           </div>
+
+
+
+
+          
+
+
+    </div>
+
+</section>
+
+
+</div><!-- main -->
 
 
 

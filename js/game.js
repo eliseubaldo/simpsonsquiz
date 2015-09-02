@@ -1,4 +1,4 @@
-
+var theQuiz = (function(){
 
         
         var cPoints=0, pPoints = 0;
@@ -21,7 +21,7 @@
         
 
 
-        function loadQuiz(){
+        var loadQuiz = function(){
 
             var url = "simpsons.json"
 
@@ -36,18 +36,16 @@
                     $('.loader').fadeIn(1000).delay(1000).fadeOut(1000, function(){loadChars();});
                      
                     
-                }
-                else{
+                }else{
 
                     $('.loaderTxt').text("Loading Episodes ...");
                     $('.loader').fadeIn(200);          
                 }
-            };
-
+            }
         };
 
 
-        function loadChars(){
+        var loadChars = function(){
 
             //load characters
             var url = "chars.json"
@@ -63,19 +61,45 @@
                     $('.loader').fadeIn(1000).delay(3000).fadeOut(1000, function(){startGame();});
                     },1000);  
                     
-                }
-                else{
+                }else{
 
                     $('.loaderTxt').text("Loading Opponents ...");
                     $('.loader').fadeIn(200);          
                 }
-            };
+            }
+        };
 
+        var startGame = function(){
 
+            //Empty variables
+            $('.pPoints').text(pPoints);
+            $('.cPoints').text(cPoints);
+
+            $('.welcome').slideUp(500);
+
+            $('.mainGame').slideDown();
+
+            // Animate entrance Elements
+            $('.computer').addClass("animated slideInLeft");
+            $('.yearpick').addClass("animated slideInRight");
+            $('.player').addClass("animated slideInLeft");
+
+            window.setTimeout(function(){
+                $('.computer').removeClass("animated slideInLeft");
+                $('.yearpick').removeClass("animated slideInRight");
+                $('.player').removeClass("animated slideInLeft");  
+            },1000);
+
+            $('.playerName').text(playerName);
+
+            nextOponent();           
+
+            nextQuestion();
 
         };
 
-        function nextOponent(){
+
+        var nextOponent = function(){
 
             oponentTotal = characters.length;
 
@@ -95,21 +119,29 @@
 
         };
 
+        var badges = function(action){
 
+            if(action=="remove"){
+             // Remove badge and text
+                $('.answerBadge').hide();
+                $('.answerBadge').text("Wrong!");
+                $('.answerBadge').removeClass("rightAns animated flipInX");
+            }else if(action=="show"){
+                // show badges
+                $('.answerBadge').show();
+                $('.answerBadge').addClass("animated flipInX");
+            }
+        };
 
-        function nextQuestion(){
+        var nextQuestion = function(){
 
             if(currQuestion == qTotal){
-                    endQuiz();
+                endQuiz();
             }else{
 
                 nextOponent();
 
-                // Remove badge and text
-                $('.answerBadge').hide();
-                $('.answerBadge').text("Wrong!");
-                $('.answerBadge').removeClass("rightAns animated flipInX");
-
+                badges("remove");               
 
                 //Re-enable buttons
                 $('.btn-answer').prop('disabled', false);
@@ -126,33 +158,11 @@
 
         };
 
-        
-        /* set answers */      
 
-         $('.pAnswer > p .btn-answer').click(function(){
-            $(this).addClass("btChoice");
-            playerAns = $(this).data("asw");
-
-            // computer answer choice
-            var casw = Math.floor(Math.random()*2);
-            if (casw) {
-                $('.cAnswer .btn-answer[data-asw="before"]').addClass("btChoice");
-                compAns = "before";
-            }else{
-                $('.cAnswer .btn-answer[data-asw="after"]').addClass("btChoice");
-                compAns = "after";
-            };
-
-            answer();
-            
-        });
-
-
-        function answer(){
+        var answer = function(){
 
             // Slice and get the true airdate for the episode selected
-            var compYearAirdate = sliceYear(data[rndPickC].airdate);
-            
+            var compYearAirdate = sliceYear(data[rndPickC].airdate);            
  
             compYearAirdate > rndYearPick ? answCorrect = "after" : answCorrect = "before";
 
@@ -166,15 +176,12 @@
                 $('.player .answerBadge').addClass("rightAns");
                 $('.player .answerBadge').text("Right!");
                 pPoints ++;
-            }
-           
+            }           
 
             // disable answer buttons
-                $('.btn-answer').prop('disabled', true);
+            $('.btn-answer').prop('disabled', true);
 
-            // show badges
-            $('.answerBadge').show();
-            $('.answerBadge').addClass("animated flipInX");
+            badges("show");
 
             //Update points
             $('.pPoints').text(pPoints);
@@ -187,17 +194,14 @@
 
             window.setTimeout(function(){
 
-                    $('.cAnswer .btn-answer').removeClass("btChoice");
-                    $('.pAnswer .btn-answer').removeClass("btChoice");
-                    nextQuestion();
-                },2000); 
-
-           
-
+                $('.cAnswer .btn-answer').removeClass("btChoice");
+                $('.pAnswer .btn-answer').removeClass("btChoice");
+                nextQuestion();
+            },2000); 
 
         };
 
-        function endQuiz(){
+        var endQuiz = function(){
 
 
             $('.computer').addClass("animated slideOutLeft");
@@ -215,7 +219,7 @@
         }
 
 
-        function sliceYear(strYear){
+        var sliceYear = function(strYear){
             // Get the airdate string length to strip year
             var s = strYear.length;
             //strip year only
@@ -224,66 +228,69 @@
         };
 
 
+        //Jquery Listeners
 
-        // Check Start button
-        $('#start').click(function(){
-            
-            
-            var name = $('.inputPlayer').val();
-            if(!name == ""){
-                playerName = name;
-                $('.playerPic').css({
-                'background-image':"url(images/icons/player_icon.png)"
-                });
-            } else{
-                $('.playerPic').css({
-                'background-image':"url(images/icons/Bart_icon.png)"
-                });
-            }
-            loadQuiz();
+            // set answers 
+             $('.pAnswer > p .btn-answer').click(function(){
+                $(this).addClass("btChoice");
+                playerAns = $(this).data("asw");
 
-        });
+                // computer answer choice
+                var casw = Math.floor(Math.random()*2);
+                if (casw) {
+                    $('.cAnswer .btn-answer[data-asw="before"]').addClass("btChoice");
+                    compAns = "before";
+                }else{
+                    $('.cAnswer .btn-answer[data-asw="after"]').addClass("btChoice");
+                    compAns = "after";
+                };
 
-        // Check Restart
-        $('#reStart').click(function(){
-            
-            $('.endQuiz').fadeOut();
-            $('.computer').removeClass("animated slideOutLeft");
-            $('.yearpick').removeClass("animated slideOutRight");
-            $('.player').removeClass("animated slideOutLeft");
+                answer();
+                
+            });
 
-            startGame();
-        })
+            // Check Start button
+            $('#start').click(function(){            
+                
+                var name = $('.inputPlayer').val();
+                if(!name == ""){
+                    playerName = name;
+                    $('.playerPic').css({
+                    'background-image':"url(images/icons/player_icon.png)"
+                    });
+                } else{
+                    $('.playerPic').css({
+                    'background-image':"url(images/icons/Bart_icon.png)"
+                    });
+                }
+                loadQuiz();
 
-        function startGame(){
+            });
 
-            //Empty variables
-            $('.pPoints').text(pPoints);
-            $('.cPoints').text(cPoints);
+            // Check Restart
+            $('#reStart').click(function(){
+                
+                $('.endQuiz').fadeOut();
+                $('.computer').removeClass("animated slideOutLeft");
+                $('.yearpick').removeClass("animated slideOutRight");
+                $('.player').removeClass("animated slideOutLeft");
 
-            $('.welcome').slideUp(500);
+                startGame();
+            });
 
-            $('.mainGame').slideDown();
 
-            // Animate entrance Elements
 
-            $('.computer').addClass("animated slideInLeft");
-            $('.yearpick').addClass("animated slideInRight");
-            $('.player').addClass("animated slideInLeft");
 
-            window.setTimeout(function(){
-                 $('.computer').removeClass("animated slideInLeft");
-                $('.yearpick').removeClass("animated slideInRight");
-                $('.player').removeClass("animated slideInLeft");  
-            },1000);
+        // Publics
+        return{
+            initialize: loadQuiz      
+        };
 
-            $('.playerName').text(playerName);
 
-            nextOponent();           
 
-            nextQuestion();
+})();        
 
-        }
+        
 
 
 
