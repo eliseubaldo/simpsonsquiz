@@ -24,11 +24,10 @@ div{box-sizing:border-box;}
 html {height:100%;}
 body{
 	background-color: #9adbfb;
-	background-image:  url(../images/cityscape.jpg),url(../images/sky.jpg);
-	background-position: center bottom,top center;
+	background-image:  url(../images/skyline.jpg);
+	background-position: top center;
 	background-repeat: no-repeat;
-
-	background-size: 100% auto, 100% auto;
+	background-size: 100% auto;
 	font-size: 1.5em;
 	font-family: 'Varela Round', sans-serif;
 
