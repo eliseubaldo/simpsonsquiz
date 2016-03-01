@@ -1,0 +1,377 @@
+
+div{box-sizing:border-box;}
+
+/* Colors */
+.yellow{color:#FECB00;}
+.blue{color:#0073CF;}
+.red{color:#DE3831;}
+.gray{color:#4D5357;}
+.green{color:#BDE18A;}
+.bluelight{color:#72C7E7;}
+.brown{color:#B3995D;}
+
+.score{
+	color:white;
+	padding:5px 0;
+	text-align: center;
+	text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black,
+                -1px 1px 0px black;
+}
+
+html {height:100%;}
+body{
+	background-image:  url(../images/clouds.png), url(../images/power-plant.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: top center, bottom center;
+	background-size: 100% auto;
+	font-size: 1.5em;
+	font-family: 'Varela Round', sans-serif;
+	background-color: #8ed4f8;
+}
+
+
+h2, h3{
+	
+	color:white; 
+	text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black,
+                -2px 2px 0px black,
+                -3px 3px 0px black;	
+}
+
+h3{
+	font-size: 1.5em;
+
+}
+
+p{text-shadow: -2px 2px 0px black;}
+
+h4{border-bottom:0px dashed white; color:white;text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black,
+                -1px 1px 0px black;}
+
+.container{position: relative;}
+
+.negMargin{
+	margin-top:-17px;
+}
+
+header{
+	margin:20px 0;
+}
+
+.logo{width:150px;}
+
+.textCenter{text-align: center;}
+
+.loader{
+	display:none;
+	padding:20px;
+	width:300px;
+	background:white;
+	color:black;
+	position:absolute;
+	top:45%;
+	left:50%;
+	margin-left:-150px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px 1px black;
+	z-index:1000;
+}
+.loaderTxt{text-align: center;}
+
+.mainGame{
+	 display:none; 
+}
+
+.endQuiz{display:none;}
+
+.computer{
+	
+	position: relative;
+	min-height:160px;
+	padding:20px 0;
+}
+
+.player{
+	
+	min-height:160px;
+	padding: 20px 0;	
+}
+
+.playersBG{
+background: #0073cf; /* Old browsers */
+background: -moz-linear-gradient(left,  #0073cf 0%, #0073cf 50%, #bde18a 51%, #bde18a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0073cf), color-stop(50%,#0073cf), color-stop(51%,#bde18a), color-stop(100%,#bde18a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #0073cf 0%,#0073cf 50%,#bde18a 51%,#bde18a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #0073cf 0%,#0073cf 50%,#bde18a 51%,#bde18a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #0073cf 0%,#0073cf 50%,#bde18a 51%,#bde18a 100%); /* IE10+ */
+background: linear-gradient(to right,  #0073cf 0%,#0073cf 50%,#bde18a 51%,#bde18a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0073cf', endColorstr='#bde18a',GradientType=1 ); /* IE6-9 */
+}
+
+.opponentBox{
+
+}
+
+.playerPic, .oponentPic{ 
+	width:80px; height:80px; 
+	background-color:white;
+    background-position:center;
+    background-repeat:no-repeat;
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	text-align: center;
+  	padding: 10px;
+  	margin:0 auto;
+  	background-size: auto 100%;
+}
+
+.playerName{
+	margin-top:-5px;
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-radius:50px;
+	height:30px;
+	color:#0073CF;
+	font-weight: bold;
+	width:110px;
+	background:white;
+	padding:1px 5px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	text-transform: capitalize;
+}
+
+.bigQuestion{
+	background:#FECB00;
+
+	}
+
+.ChosenYear{
+	text-align: center;
+	color:white;
+	font-size:1.5em;
+	margin:20px 0;
+	text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black,
+                -2px 2px 0px black,
+                -3px 3px 0px black;	
+}
+
+.fancyBefore{
+	color:rgb(148,173,49);
+	font-size:1.3em;
+	padding:0 5px;
+}
+
+.fancyAfter{
+	color:rgb(148,173,49);
+	font-size:1.3em;
+	padding:0 10px 0 5px;
+}
+
+.fancyQuestionmark{
+	font-size: 2.1em;
+	color:rgb(181,33,8);
+	
+    text-decoration:blink;
+    vertical-align: middle;            
+}
+
+.rndYear{
+	border-bottom:2px solid black;
+	color:rgb(148,173,49);
+	font-size:1.3em;
+
+}
+
+.episodeTitle{
+	color:white;
+	padding:1em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.answer{
+	padding:20px;
+}
+
+.answerBadge{
+  width: 100px;
+  height: 100px;
+  background:#DE3831;
+  border: 3px solid white;
+  box-shadow: 0px 3px 0px 0px black;
+  border-radius: 50px;
+  text-align: center;
+  padding: 35px 10px;
+  left:50%;
+  color:white;
+  font-weight: bold;
+  top:5%;
+  margin-left:-50px;
+  display:none;
+  position:absolute;
+  z-index:5;
+}
+
+.rightAns{background:rgb(24,123,57) !important;}
+
+.btn-answer{
+  background: url(../images/funky-button.svg) no-repeat;
+  background-size: 100% auto;
+  min-height: 58px;
+  width: 70%;
+  border-radius: 5px;
+  font-weight:bold;
+  font-size:1.2em;
+  margin: 0 5px 10px;
+  color:white;
+  text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black,
+                -1px 1px 0px black;
+}
+
+.btn-answer.btn:hover{
+	color:white;
+}
+
+.btn-answer.btn[disabled] {
+  background: url(../images/funky-button.svg) no-repeat;
+  background-size: 100% auto;
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=1) !important;
+  opacity: 1 !important;
+  color:white;	
+}
+
+.btn-answer.active, .btn-answer:active{
+	background: url(../images/funky-button-over.svg) no-repeat;
+  background-size: 100% auto;
+  box-shadow: none;
+}
+
+.btChoice.btn[disabled] {
+  background: url(../images/funky-button-over.svg) no-repeat;
+  background-size: 100% auto;
+}
+
+
+
+.btnStart{
+	margin:20px 0;
+	box-shadow:0px 3px 0px 0px black;
+	font-size:1.5em;
+	color:white;
+	background-color:#0073CF;
+
+}
+
+.inputPlayer{
+	font-size: 1.2em;
+	color:#0073cf;
+	width:24%;
+	height:46px;
+	margin-left:37.8%;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.scoreResults{
+	border:3px solid white;
+	box-shadow:0px 3px 0px 0px black;
+	border-radius:50px;
+	height:30px;
+	color:#0073CF;
+	font-weight: bold;
+	background:white;
+	max-width:300px;
+	padding:1px 5px;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+footer{
+  background: url(../images/cityscape.jpg) no-repeat;
+  background-size: 100% auto;
+  min-height: 235px;
+}
+
+
+ /*  -- media queries --*/
+
+
+
+@media screen and (min-width: 1025px){
+	body{
+		background-image:  url(../images/power-plant.jpg);
+		background-repeat:  no-repeat;
+		background-position:  bottom center;
+		background-size: 100% auto;		
+		background-color: #8ed4f8;
+	}
+ 	
+ }
+
+
+@media screen and (max-width: 1024px){
+
+ 	.btn-answer{
+ 		min-height: 48px;
+ 		width:150px;
+ 	}
+ }
+
+@media screen and (max-width: 640px){
+
+ 	.btn-answer{
+ 		min-height: 40px;
+ 		width:124px;
+ 		font-size:1em;
+ 	}
+
+ 	.logo{width:96px;}
+
+ 	h2{font-size:1.2em; margin-top:5px;}
+
+ 	header{margin:10px 0;}
+
+ 	.episodeTitle{ font-size:1.3em; padding:0.5em;}
+
+ 	.ChosenYear{font-size:1.2em; margin:10px 0;}
+ }
+
+ @media screen and (max-width:360px){
+ 	.inputPlayer{width:150px; margin-left:27.8%;}
+
+ 	.episodeTitle{font-size:1em;}
+
+ 	h2, h3{
+	text-shadow: 0 0px 1px black,
+                0 0px 1px black,
+                0 0px 1px black,
+                -1px 1px 0px black
+             }
+
+    .ChosenYear{ font-size: 1em; text-shadow:0px 0px 1px #000, 0px 0px 1px #000, 0px 0px 1px #000, -1px 1px 0px #000, -1px 1px 0px #000;}
+
+ }

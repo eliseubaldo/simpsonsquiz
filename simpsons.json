@@ -1,0 +1,1810 @@
+[  
+   {  
+      "episode":1,
+      "Title":"Simpsons Roasting on an Open Fire",
+      "Directed":"David Silverman",
+      "Written":"Mimi Pond",
+      "airdate":"December 17, 1989",
+      "Usviewers":"26.7[14]"
+   },
+   {  
+      "episode":2,
+      "Title":"Bart the Genius",
+      "Directed":"David Silverman",
+      "Written":"Jon Vitti",
+      "airdate":"January 14, 1990",
+      "Usviewers":"24.5[14]"
+   },
+   {  
+      "episode":3,
+      "Title":"Homer's Odyssey",
+      "Directed":"Wes Archer",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"January 21, 1990",
+      "Usviewers":"27.5[17]"
+   },
+   {  
+      "episode":4,
+      "Title":"There's No Disgrace Like Home",
+      "Directed":"Gregg Vanzo & Kent Butterworth",
+      "Written":"Al Jean & Mike Reiss",
+      "airdate":"January 28, 1990",
+      "Usviewers":"20.2[19]"
+   },
+   {  
+      "episode":5,
+      "Title":"Bart the General",
+      "Directed":"David Silverman",
+      "Written":"John Swartzwelder",
+      "airdate":"February 4, 1990",
+      "Usviewers":"27.1[21]"
+   },
+   {  
+      "episode":6,
+      "Title":"Moaning Lisa",
+      "Directed":"Wes Archer",
+      "Written":"Al Jean & Mike Reiss",
+      "airdate":"February 11, 1990",
+      "Usviewers":"27.4[23]"
+   },
+   {  
+      "episode":7,
+      "Title":"The Call of the Simpsons",
+      "Directed":"Wes Archer",
+      "Written":"John Swartzwelder",
+      "airdate":"February 18, 1990",
+      "Usviewers":"27.6[25]"
+   },
+   {  
+      "episode":8,
+      "Title":"The Telltale Head",
+      "Directed":"Rich Moore",
+      "Written":"Al Jean, Mike Reiss, Sam Simon & Matt Groening",
+      "airdate":"February 25, 1990",
+      "Usviewers":"28[27]"
+   },
+   {  
+      "episode":9,
+      "Title":"Life on the Fast Lane",
+      "Directed":"David Silverman",
+      "Written":"John Swartzwelder",
+      "airdate":"March 18, 1990",
+      "Usviewers":"33.5[29]"
+   },
+   {  
+      "episode":10,
+      "Title":"Homer's Night Out",
+      "Directed":"Rich Moore",
+      "Written":"Jon Vitti",
+      "airdate":"March 25, 1990",
+      "Usviewers":"30.3[31]"
+   },
+   {  
+      "episode":11,
+      "Title":"The Crepes of Wrath",
+      "Directed":"Wes Archer & Milton Gray",
+      "Written":"George Meyer, Sam Simon, John Swartzwelder & Jon Vitti",
+      "airdate":"April 15, 1990",
+      "Usviewers":"31.2[33]"
+   },
+   {  
+      "episode":12,
+      "Title":"Krusty Gets Busted",
+      "Directed":"Brad Bird",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"April 29, 1990",
+      "Usviewers":"30.4[35]"
+   },
+   {  
+      "episode":13,
+      "Title":"Some Enchanted Evening",
+      "Directed":"David Silverman & Kent Butterworth",
+      "Written":"Matt Groening & Sam Simon",
+      "airdate":"May 13, 1990",
+      "Usviewers":"27.1[37]"
+   },
+   {  
+      "episode":14,
+      "Title":"Bart Gets an ",
+      "Directed":"David Silverman",
+      "Written":"David M. Stern",
+      "airdate":"October 11, 1990",
+      "Usviewers":"33.6[39]"
+   },
+   {  
+      "episode":15,
+      "Title":"Simpson and Delilah",
+      "Directed":"Rich Moore",
+      "Written":"Jon Vitti",
+      "airdate":"October 18, 1990",
+      "Usviewers":"29.9[41]"
+   },
+   {  
+      "episode":16,
+      "Title":"Treehouse of Horror",
+      "Directed":"Rich Moore, Wes Archer& David Silverman",
+      "Written":"John Swartzwelder, Jay Kogen, Wallace Wolodarsky, Edgar Allan Poe & Sam Simon",
+      "airdate":"October 25, 1990",
+      "Usviewers":"27.4[43]"
+   },
+   {  
+      "episode":17,
+      "Title":"Two Cars in Every Garage and Three Eyes on Every Fish",
+      "Directed":"Wes Archer",
+      "Written":"Sam Simon & John Swartzwelder",
+      "airdate":"November 1, 1990",
+      "Usviewers":"26.1[45]"
+   },
+   {  
+      "episode":18,
+      "Title":"Dancin' Homer",
+      "Directed":"Mark Kirkland",
+      "Written":"Ken Levine & David Isaacs",
+      "airdate":"November 8, 1990",
+      "Usviewers":"26.1[47]"
+   },
+   {  
+      "episode":19,
+      "Title":"Dead Putting Society",
+      "Directed":"Rich Moore",
+      "Written":"Jeff Martin",
+      "airdate":"November 15, 1990",
+      "Usviewers":"25.4[49]"
+   },
+   {  
+      "episode":20,
+      "Title":"Bart vs. Thanksgiving",
+      "Directed":"David Silverman",
+      "Written":"George Meyer",
+      "airdate":"November 22, 1990",
+      "Usviewers":"25.9[51]"
+   },
+   {  
+      "episode":21,
+      "Title":"Bart the Daredevil",
+      "Directed":"Wesley Meyer Archer",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"December 6, 1990",
+      "Usviewers":"26.2[53]"
+   },
+   {  
+      "episode":22,
+      "Title":"Itchy & Scratchy & Marge",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"December 20, 1990",
+      "Usviewers":"22.2[55]"
+   },
+   {  
+      "episode":23,
+      "Title":"Bart Gets Hit by a Car",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"January 10, 1991",
+      "Usviewers":"24.8[57]"
+   },
+   {  
+      "episode":24,
+      "Title":"One Fish, Two Fish, Blowfish, Blue Fish",
+      "Directed":"Wesley M. Archer",
+      "Written":"Nell Scovell",
+      "airdate":"January 24, 1991",
+      "Usviewers":"24.2[59]"
+   },
+   {  
+      "episode":25,
+      "Title":"The Way We Was",
+      "Directed":"David Silverman",
+      "Written":"Al Jean & Mike Reiss and Sam Simon",
+      "airdate":"January 31, 1991",
+      "Usviewers":"26.8[61]"
+   },
+   {  
+      "episode":26,
+      "Title":"Homer vs. Lisa and the 8th Commandment",
+      "Directed":"Rich Moore",
+      "Written":"Steve Pepoon",
+      "airdate":"February 7, 1991",
+      "Usviewers":"26.2[63]"
+   },
+   {  
+      "episode":27,
+      "Title":"Principal Charming",
+      "Directed":"Mark Kirkland",
+      "Written":"David M. Stern",
+      "airdate":"February 14, 1991",
+      "Usviewers":"23.9[65]"
+   },
+   {  
+      "episode":28,
+      "Title":"Oh Brother, Where Art Thou?",
+      "Directed":"W.M. ",
+      "Written":"Jeff Martin",
+      "airdate":"February 21, 1991",
+      "Usviewers":"26.8[67]"
+   },
+   {  
+      "episode":29,
+      "Title":"Bart's Dog Gets an ",
+      "Directed":"Jim Reardon",
+      "Written":"Jon Vitti",
+      "airdate":"March 7, 1991",
+      "Usviewers":"23.9[69]"
+   },
+   {  
+      "episode":30,
+      "Title":"Old Money",
+      "Directed":"David Silverman",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"March 28, 1991",
+      "Usviewers":"21.2[71]"
+   },
+   {  
+      "episode":31,
+      "Title":"Brush with Greatness",
+      "Directed":"Jim Reardon",
+      "Written":"Brian K. Roberts",
+      "airdate":"April 11, 1991",
+      "Usviewers":"20.6[73]"
+   },
+   {  
+      "episode":32,
+      "Title":"Lisa's Substitute",
+      "Directed":"Rich Moore",
+      "Written":"Jon Vitti",
+      "airdate":"April 25, 1991",
+      "Usviewers":"17.7[75]"
+   },
+   {  
+      "episode":33,
+      "Title":"The War of the Simpsons",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"May 2, 1991",
+      "Usviewers":"19.7[77]"
+   },
+   {  
+      "episode":34,
+      "Title":"Three Men and a Comic Book",
+      "Directed":"Wes M. Archer",
+      "Written":"Jeff Martin",
+      "airdate":"May 9, 1991",
+      "Usviewers":"21[79]"
+   },
+   {  
+      "episode":35,
+      "Title":"Blood Feud",
+      "Directed":"David Silverman",
+      "Written":"George Meyer",
+      "airdate":"July 11, 1991",
+      "Usviewers":"17.3[81]"
+   },
+   {  
+      "episode":36,
+      "Title":"Stark Raving Dad",
+      "Directed":"Rich Moore",
+      "Written":"Al Jean & Mike Reiss",
+      "airdate":"September 19, 1991",
+      "Usviewers":"22.9[83]"
+   },
+   {  
+      "episode":37,
+      "Title":"Mr. Lisa Goes to Washington",
+      "Directed":"Wes Archer",
+      "Written":"George Meyer",
+      "airdate":"September 26, 1991",
+      "Usviewers":"20.2[85]"
+   },
+   {  
+      "episode":38,
+      "Title":"When Flanders Failed",
+      "Directed":"Jim Reardon",
+      "Written":"Jon Vitti",
+      "airdate":"October 3, 1991",
+      "Usviewers":"22.8[87]"
+   },
+   {  
+      "episode":39,
+      "Title":"Bart the Murderer",
+      "Directed":"Rich Moore",
+      "Written":"John Swartzwelder",
+      "airdate":"October 10, 1991",
+      "Usviewers":"20.8[89]"
+   },
+   {  
+      "episode":40,
+      "Title":"Homer Defined",
+      "Directed":"Mark Kirkland",
+      "Written":"Howard Gewirtz",
+      "airdate":"October 17, 1991",
+      "Usviewers":"20.6[91]"
+   },
+   {  
+      "episode":41,
+      "Title":"Like Father, Like Clown",
+      "Directed":"Jeffrey Lynch &Brad Bird",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"October 24, 1991",
+      "Usviewers":"20.2[93]"
+   },
+   {  
+      "episode":42,
+      "Title":"Treehouse of Horror II",
+      "Directed":"Jim Reardon",
+      "Written":"Al Jean, Mike Reiss, Jeff Martin, George Meyer, Sam Simon & John Swartzwelder",
+      "airdate":"October 31, 1991",
+      "Usviewers":"20[95]"
+   },
+   {  
+      "episode":43,
+      "Title":"Lisa's Pony",
+      "Directed":"Carlos Baeza",
+      "Written":"Al Jean & Mike Reiss",
+      "airdate":"November 7, 1991",
+      "Usviewers":"23[97]"
+   },
+   {  
+      "episode":44,
+      "Title":"Saturdays of Thunder",
+      "Directed":"Jim Reardon",
+      "Written":"Ken Levine & David Isaacs",
+      "airdate":"November 14, 1991",
+      "Usviewers":"24.7[99]"
+   },
+   {  
+      "episode":45,
+      "Title":"Flaming Moe's",
+      "Directed":"Rich Moore & Alan Smart",
+      "Written":"Robert Cohen",
+      "airdate":"November 21, 1991",
+      "Usviewers":"23.9[101]"
+   },
+   {  
+      "episode":46,
+      "Title":"Burns Verkaufen der Kraftwerk",
+      "Directed":"Mark Kirkland",
+      "Written":"Jon Vitti",
+      "airdate":"December 5, 1991",
+      "Usviewers":"21.1[103]"
+   },
+   {  
+      "episode":47,
+      "Title":"I Married Marge",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Jeff Martin",
+      "airdate":"December 26, 1991",
+      "Usviewers":"21.9[105]"
+   },
+   {  
+      "episode":48,
+      "Title":"Radio Bart",
+      "Directed":"Carlos Baeza",
+      "Written":"Jon Vitti",
+      "airdate":"January 9, 1992",
+      "Usviewers":"24.2[107]"
+   },
+   {  
+      "episode":49,
+      "Title":"Lisa the Greek",
+      "Directed":"Rich Moore",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"January 23, 1992",
+      "Usviewers":"23.2[109]"
+   },
+   {  
+      "episode":50,
+      "Title":"Homer Alone",
+      "Directed":"Mark Kirkland",
+      "Written":"David M. Stern",
+      "airdate":"February 6, 1992",
+      "Usviewers":"23.7[111]"
+   },
+   {  
+      "episode":51,
+      "Title":"Bart the Lover",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Jon Vitti",
+      "airdate":"February 13, 1992",
+      "Usviewers":"20.5[113]"
+   },
+   {  
+      "episode":52,
+      "Title":"Homer at the Bat",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"February 20, 1992",
+      "Usviewers":"24.6[115]"
+   },
+   {  
+      "episode":53,
+      "Title":"Separate Vocations",
+      "Directed":"Carlos Baeza",
+      "Written":"George Meyer",
+      "airdate":"February 27, 1992",
+      "Usviewers":"23.7[117]"
+   },
+   {  
+      "episode":54,
+      "Title":"Dog of Death",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"March 12, 1992",
+      "Usviewers":"23.4[119]"
+   },
+   {  
+      "episode":55,
+      "Title":"Colonel Homer",
+      "Directed":"Mark Kirkland",
+      "Written":"Matt Groening",
+      "airdate":"March 26, 1992",
+      "Usviewers":"25.5[121]"
+   },
+   {  
+      "episode":56,
+      "Title":"Black Widower",
+      "Directed":"David Silverman",
+      "Written":"Story by: Thomas Chastain & Sam Simon",
+      "airdate":"April 9, 1992",
+      "Usviewers":"17.3[123]"
+   },
+   {  
+      "episode":57,
+      "Title":"The Otto Show",
+      "Directed":"Wes Archer",
+      "Written":"Jeff Martin",
+      "airdate":"April 23, 1992",
+      "Usviewers":"17.5[125]"
+   },
+   {  
+      "episode":58,
+      "Title":"Bart's Friend Falls in Love",
+      "Directed":"Jim Reardon",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"May 7, 1992",
+      "Usviewers":"19.5[127]"
+   },
+   {  
+      "episode":59,
+      "Title":"Brother, Can You Spare Two Dimes?",
+      "Directed":"Rich Moore",
+      "Written":"John Swartzwelder",
+      "airdate":"August 27, 1992",
+      "Usviewers":"17.2[129]"
+   },
+   {  
+      "episode":60,
+      "Title":"Kamp Krusty",
+      "Directed":"Mark Kirkland",
+      "Written":"David M. Stern",
+      "airdate":"September 24, 1992",
+      "Usviewers":"21.8[131]"
+   },
+   {  
+      "episode":61,
+      "Title":"A Streetcar Named Marge",
+      "Directed":"Rich Moore",
+      "Written":"Jeff Martin",
+      "airdate":"October 1, 1992",
+      "Usviewers":"18.3[133]"
+   },
+   {  
+      "episode":62,
+      "Title":"Homer the Heretic",
+      "Directed":"Jim Reardon",
+      "Written":"George Meyer",
+      "airdate":"October 8, 1992",
+      "Usviewers":"19.3[135]"
+   },
+   {  
+      "episode":63,
+      "Title":"Lisa the Beauty Queen",
+      "Directed":"Mark Kirkland",
+      "Written":"Jeff Martin",
+      "airdate":"October 15, 1992",
+      "Usviewers":"19[137]"
+   },
+   {  
+      "episode":64,
+      "Title":"Treehouse of Horror III",
+      "Directed":"Carlos Baeza",
+      "Written":"Al Jean, Mike Reiss, Jay Kogen, Wallace Wolodarsky, Sam Simon & Jon Vitti",
+      "airdate":"October 29, 1992",
+      "Usviewers":"25.1[139]"
+   },
+   {  
+      "episode":65,
+      "Title":"Itchy & Scratchy: The Movie",
+      "Directed":"Rich Moore",
+      "Written":"John Swartzwelder",
+      "airdate":"November 3, 1992",
+      "Usviewers":"20.1[142]"
+   },
+   {  
+      "episode":66,
+      "Title":"Marge Gets a Job",
+      "Directed":"Jeff Lynch",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"November 5, 1992",
+      "Usviewers":"22.9[142]"
+   },
+   {  
+      "episode":67,
+      "Title":"New Kid on the Block",
+      "Directed":"Wes Archer",
+      "Written":"Conan O'Brien",
+      "airdate":"November 12, 1992",
+      "Usviewers":"23.1[146]"
+   },
+   {  
+      "episode":68,
+      "Title":"Mr. Plow",
+      "Directed":"Jim Reardon",
+      "Written":"Jon Vitti",
+      "airdate":"November 19, 1992",
+      "Usviewers":"24[148]"
+   },
+   {  
+      "episode":69,
+      "Title":"Lisa's First Word",
+      "Directed":"Mark Kirkland",
+      "Written":"Jeff Martin",
+      "airdate":"December 3, 1992",
+      "Usviewers":"28.6[150]"
+   },
+   {  
+      "episode":70,
+      "Title":"Homer's Triple Bypass",
+      "Directed":"David Silverman",
+      "Written":"Gary Apple & Michael Carrington",
+      "airdate":"December 17, 1992",
+      "Usviewers":"23.6[152]"
+   },
+   {  
+      "episode":71,
+      "Title":"Marge vs. the Monorail",
+      "Directed":"Rich Moore",
+      "Written":"Conan O'Brien",
+      "airdate":"January 14, 1993",
+      "Usviewers":"23[154]"
+   },
+   {  
+      "episode":72,
+      "Title":"Selma's Choice",
+      "Directed":"Carlos Baeza",
+      "Written":"David M. Stern",
+      "airdate":"January 21, 1993",
+      "Usviewers":"24.5[156]"
+   },
+   {  
+      "episode":73,
+      "Title":"Brother from the Same Planet",
+      "Directed":"Jeff Lynch",
+      "Written":"Jon Vitti",
+      "airdate":"February 4, 1993",
+      "Usviewers":"23.8[158]"
+   },
+   {  
+      "episode":74,
+      "Title":"I Love Lisa",
+      "Directed":"Wes Archer",
+      "Written":"Frank Mula",
+      "airdate":"February 11, 1993",
+      "Usviewers":"25.2[160]"
+   },
+   {  
+      "episode":75,
+      "Title":"Duffless",
+      "Directed":"Jim Reardon",
+      "Written":"David M. Stern",
+      "airdate":"February 18, 1993",
+      "Usviewers":"25.7[162]"
+   },
+   {  
+      "episode":76,
+      "Title":"Last Exit to Springfield",
+      "Directed":"Mark Kirkland",
+      "Written":"Jay Kogen & Wallace Wolodarsky",
+      "airdate":"March 11, 1993",
+      "Usviewers":"22.4[164]"
+   },
+   {  
+      "episode":77,
+      "Title":"So It's Come to This: A Simpsons Clip Show",
+      "Directed":"Carlos Baeza",
+      "Written":"Jon Vitti",
+      "airdate":"April 1, 1993",
+      "Usviewers":"25.5[166]"
+   },
+   {  
+      "episode":78,
+      "Title":"The Front",
+      "Directed":"Rich Moore",
+      "Written":"Adam I. Lapidus",
+      "airdate":"April 15, 1993",
+      "Usviewers":"20.1[168]"
+   },
+   {  
+      "episode":79,
+      "Title":"Whacking Day",
+      "Directed":"Jeff Lynch",
+      "Written":"John Swartzwelder",
+      "airdate":"April 29, 1993",
+      "Usviewers":"20[170]"
+   },
+   {  
+      "episode":80,
+      "Title":"Marge in Chains",
+      "Directed":"Jim Reardon",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"May 6, 1993",
+      "Usviewers":"17.3[172]"
+   },
+   {  
+      "episode":81,
+      "Title":"Krusty Gets Kancelled",
+      "Directed":"David Silverman",
+      "Written":"John Swartzwelder",
+      "airdate":"May 13, 1993",
+      "Usviewers":"19.4[174]"
+   },
+   {  
+      "episode":82,
+      "Title":"Homer's Barbershop Quartet",
+      "Directed":"Mark Kirkland",
+      "Written":"Jeff Martin",
+      "airdate":"September 30, 1993",
+      "Usviewers":"19.9[176]"
+   },
+   {  
+      "episode":83,
+      "Title":"Cape Feare",
+      "Directed":"Rich Moore",
+      "Written":"Jon Vitti",
+      "airdate":"October 7, 1993",
+      "Usviewers":"20.0[178]"
+   },
+   {  
+      "episode":84,
+      "Title":"Homer Goes to College",
+      "Directed":"Jim Reardon",
+      "Written":"Conan O'Brien",
+      "airdate":"October 14, 1993",
+      "Usviewers":"18.1[180]"
+   },
+   {  
+      "episode":85,
+      "Title":"Rosebud",
+      "Directed":"Wes Archer",
+      "Written":"John Swartzwelder",
+      "airdate":"October 21, 1993",
+      "Usviewers":"19.5[182]"
+   },
+   {  
+      "episode":86,
+      "Title":"Treehouse of Horror IV",
+      "Directed":"David Silverman",
+      "Written":"Conan O'Brien, Greg Daniels, Dan McGrath, Bill Oakley, Josh Weinstein & Bill Canterbury",
+      "airdate":"October 28, 1993",
+      "Usviewers":"24.0[184]"
+   },
+   {  
+      "episode":87,
+      "Title":"Marge on the Lam",
+      "Directed":"Mark Kirkland",
+      "Written":"Bill Canterbury",
+      "airdate":"November 4, 1993",
+      "Usviewers":"21.7[186]"
+   },
+   {  
+      "episode":88,
+      "Title":"Bart's Inner Child",
+      "Directed":"Bob Anderson",
+      "Written":"George Meyer",
+      "airdate":"November 11, 1993",
+      "Usviewers":"18.7[188]"
+   },
+   {  
+      "episode":89,
+      "Title":"Boy-Scoutz 'n the Hood",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Dan McGrath",
+      "airdate":"November 18, 1993",
+      "Usviewers":"20.1[190]"
+   },
+   {  
+      "episode":90,
+      "Title":"The Last Temptation of Homer",
+      "Directed":"Carlos Baeza",
+      "Written":"Frank Mula",
+      "airdate":"December 9, 1993",
+      "Usviewers":"20.6[192]"
+   },
+   {  
+      "episode":91,
+      "Title":"$pringfield (or, How I Learned to Stop Worrying and Love Legalized Gambling)",
+      "Directed":"Wes Archer",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"December 16, 1993",
+      "Usviewers":"17.9[194]"
+   },
+   {  
+      "episode":92,
+      "Title":"Homer the Vigilante",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"January 6, 1994",
+      "Usviewers":"20.1[196]"
+   },
+   {  
+      "episode":93,
+      "Title":"Bart Gets Famous",
+      "Directed":"Susie Dietter",
+      "Written":"John Swartzwelder",
+      "airdate":"February 3, 1994",
+      "Usviewers":"20.0[198]"
+   },
+   {  
+      "episode":94,
+      "Title":"Homer and Apu",
+      "Directed":"Mark Kirkland",
+      "Written":"Greg Daniels",
+      "airdate":"February 10, 1994",
+      "Usviewers":"21.8[200]"
+   },
+   {  
+      "episode":95,
+      "Title":"Lisa vs. Malibu Stacy",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"February 17, 1994",
+      "Usviewers":"20.5[202]"
+   },
+   {  
+      "episode":96,
+      "Title":"Deep Space Homer",
+      "Directed":"Carlos Baeza",
+      "Written":"David Mirkin",
+      "airdate":"February 24, 1994",
+      "Usviewers":"18.2[204]"
+   },
+   {  
+      "episode":97,
+      "Title":"Homer Loves Flanders",
+      "Directed":"Wes Archer",
+      "Written":"David Richardson",
+      "airdate":"March 17, 1994",
+      "Usviewers":"18.0[206]"
+   },
+   {  
+      "episode":98,
+      "Title":"Bart Gets an Elephant",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"March 31, 1994",
+      "Usviewers":"17.0[208]"
+   },
+   {  
+      "episode":99,
+      "Title":"Burns' Heir",
+      "Directed":"Mark Kirkland",
+      "Written":"Jace Richdale",
+      "airdate":"April 14, 1994",
+      "Usviewers":"14.7[210]"
+   },
+   {  
+      "episode":100,
+      "Title":"Sweet Seymour Skinner's Baadasssss Song",
+      "Directed":"Bob Anderson",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"April 28, 1994",
+      "Usviewers":"19.7[212]"
+   },
+   {  
+      "episode":101,
+      "Title":"The Boy Who Knew Too Much",
+      "Directed":"Jeffrey Lynch",
+      "Written":"John Swartzwelder",
+      "airdate":"May 5, 1994",
+      "Usviewers":"15.5[214]"
+   },
+   {  
+      "episode":102,
+      "Title":"Lady Bouvier's Lover",
+      "Directed":"Wes Archer",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"May 12, 1994",
+      "Usviewers":"15.1[216]"
+   },
+   {  
+      "episode":103,
+      "Title":"Secrets of a Successful Marriage",
+      "Directed":"Carlos Baeza",
+      "Written":"Greg Daniels",
+      "airdate":"May 19, 1994",
+      "Usviewers":"15.6[218]"
+   },
+   {  
+      "episode":104,
+      "Title":"Bart of Darkness",
+      "Directed":"Jim Reardon",
+      "Written":"Dan McGrath",
+      "airdate":"September 4, 1994",
+      "Usviewers":"15.1[220]"
+   },
+   {  
+      "episode":105,
+      "Title":"Lisa's Rival",
+      "Directed":"Mark Kirkland",
+      "Written":"Mike Scully",
+      "airdate":"September 11, 1994",
+      "Usviewers":"16.7[222]"
+   },
+   {  
+      "episode":106,
+      "Title":"Another Simpsons Clip Show",
+      "Directed":"David Silverman",
+      "Written":"Penny Wise[A]",
+      "airdate":"September 25, 1994",
+      "Usviewers":"13.5[224]"
+   },
+   {  
+      "episode":107,
+      "Title":"Itchy & Scratchy Land",
+      "Directed":"Wes Archer",
+      "Written":"John Swartzwelder",
+      "airdate":"October 2, 1994",
+      "Usviewers":"14.8[226]"
+   },
+   {  
+      "episode":108,
+      "Title":"Sideshow Bob Roberts",
+      "Directed":"Mark Kirkland",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"October 9, 1994",
+      "Usviewers":"14.4[228]"
+   },
+   {  
+      "episode":109,
+      "Title":"Treehouse of Horror V",
+      "Directed":"Jim Reardon",
+      "Written":"Greg Daniels, Dan McGrath, David S. Cohen & Bob Kushell",
+      "airdate":"October 30, 1994",
+      "Usviewers":"22.2[230]"
+   },
+   {  
+      "episode":110,
+      "Title":"Bart's Girlfriend",
+      "Directed":"Susie Dietter",
+      "Written":"Jonathan Collier",
+      "airdate":"November 6, 1994",
+      "Usviewers":"15.3[232]"
+   },
+   {  
+      "episode":111,
+      "Title":"Lisa on Ice",
+      "Directed":"Bob Anderson",
+      "Written":"Mike Scully",
+      "airdate":"November 13, 1994",
+      "Usviewers":"17.9[234]"
+   },
+   {  
+      "episode":112,
+      "Title":"Homer Badman",
+      "Directed":"Jeff Lynch",
+      "Written":"Greg Daniels",
+      "airdate":"November 27, 1994",
+      "Usviewers":"17.0[236]"
+   },
+   {  
+      "episode":113,
+      "Title":"Grampa vs. Sexual Inadequacy",
+      "Directed":"Wes Archer",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"December 4, 1994",
+      "Usviewers":"14.1[238]"
+   },
+   {  
+      "episode":114,
+      "Title":"Fear of Flying",
+      "Directed":"Mark Kirkland",
+      "Written":"David Sacks",
+      "airdate":"December 18, 1994",
+      "Usviewers":"15.6[240]"
+   },
+   {  
+      "episode":115,
+      "Title":"Homer the Great",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"January 8, 1995",
+      "Usviewers":"20.1[242]"
+   },
+   {  
+      "episode":116,
+      "Title":"And Maggie Makes Three",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Jennifer Crittenden",
+      "airdate":"January 22, 1995",
+      "Usviewers":"17.3[244]"
+   },
+   {  
+      "episode":117,
+      "Title":"Bart's Comet",
+      "Directed":"Bob Anderson",
+      "Written":"John Swartzwelder",
+      "airdate":"February 5, 1995",
+      "Usviewers":"18.7[246]"
+   },
+   {  
+      "episode":118,
+      "Title":"Homie the Clown",
+      "Directed":"David Silverman",
+      "Written":"John Swartzwelder",
+      "airdate":"February 12, 1995",
+      "Usviewers":"17.6[248]"
+   },
+   {  
+      "episode":119,
+      "Title":"Bart vs. Australia",
+      "Directed":"Wes Archer",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"February 19, 1995",
+      "Usviewers":"15.1[246]"
+   },
+   {  
+      "episode":120,
+      "Title":"Homer vs. Patty and Selma",
+      "Directed":"Mark Kirkland",
+      "Written":"Brent Forrester",
+      "airdate":"February 26, 1995",
+      "Usviewers":"18.9[246]"
+   },
+   {  
+      "episode":121,
+      "Title":"A Star Is Burns",
+      "Directed":"Susie Dietter",
+      "Written":"Ken Keeler",
+      "airdate":"March 5, 1995",
+      "Usviewers":"14.4[251]"
+   },
+   {  
+      "episode":122,
+      "Title":"Lisa's Wedding",
+      "Directed":"Jim Reardon",
+      "Written":"Greg Daniels",
+      "airdate":"March 19, 1995",
+      "Usviewers":"14.4[253]"
+   },
+   {  
+      "episode":123,
+      "Title":"Two Dozen and One Greyhounds",
+      "Directed":"Bob Anderson",
+      "Written":"Mike Scully",
+      "airdate":"April 9, 1995",
+      "Usviewers":"11.6[255]"
+   },
+   {  
+      "episode":124,
+      "Title":"The PTA Disbands",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Jennifer Crittenden",
+      "airdate":"April 16, 1995",
+      "Usviewers":"11.8[257]"
+   },
+   {  
+      "episode":125,
+      "Title":"'Round Springfield",
+      "Directed":"Steven Dean Moore",
+      "Written":"Teleplay by: Joshua Sternin & Jeffrey Ventimilia",
+      "airdate":"April 30, 1995",
+      "Usviewers":"12.6[259]"
+   },
+   {  
+      "episode":126,
+      "Title":"The Springfield Connection",
+      "Directed":"Mark Kirkland",
+      "Written":"Jonathan Collier",
+      "airdate":"May 7, 1995",
+      "Usviewers":"12.7[261]"
+   },
+   {  
+      "episode":127,
+      "Title":"Lemon of Troy",
+      "Directed":"Jim Reardon",
+      "Written":"Brent Forrester",
+      "airdate":"May 14, 1995",
+      "Usviewers":"13.1[263]"
+   },
+   {  
+      "episode":128,
+      "Title":"Who Shot Mr. Burns? (Part One)",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"May 21, 1995",
+      "Usviewers":"15.0[265]"
+   },
+   {  
+      "episode":129,
+      "Title":"Who Shot Mr. Burns? (Part Two)",
+      "Directed":"Wes Archer",
+      "Written":"Bill Oakley & Josh Weinstein",
+      "airdate":"September 17, 1995",
+      "Usviewers":"16.0[267]"
+   },
+   {  
+      "episode":130,
+      "Title":"Radioactive Man",
+      "Directed":"Susie Dietter",
+      "Written":"John Swartzwelder",
+      "airdate":"September 24, 1995",
+      "Usviewers":"15.7[267]"
+   },
+   {  
+      "episode":131,
+      "Title":"Home Sweet Homediddly-Dum-Doodily",
+      "Directed":"Susie Dietter",
+      "Written":"Jon Vitti",
+      "airdate":"October 1, 1995",
+      "Usviewers":"14.5[267]"
+   },
+   {  
+      "episode":132,
+      "Title":"Bart Sells His Soul",
+      "Directed":"Wesley Archer",
+      "Written":"Greg Daniels",
+      "airdate":"October 8, 1995",
+      "Usviewers":"14.8[267]"
+   },
+   {  
+      "episode":133,
+      "Title":"Lisa the Vegetarian",
+      "Directed":"Mark Kirkland",
+      "Written":"David S. Cohen",
+      "airdate":"October 15, 1995",
+      "Usviewers":"14.6[267]"
+   },
+   {  
+      "episode":134,
+      "Title":"Treehouse of Horror VI",
+      "Directed":"Bob Anderson",
+      "Written":"John Swartzwelder, Steve Tompkins & David S. Cohen",
+      "airdate":"October 29, 1995",
+      "Usviewers":"19.7[267]"
+   },
+   {  
+      "episode":135,
+      "Title":"King-Size Homer",
+      "Directed":"Jim Reardon",
+      "Written":"Dan Greaney",
+      "airdate":"November 5, 1995",
+      "Usviewers":"17.0[267]"
+   },
+   {  
+      "episode":136,
+      "Title":"Mother Simpson",
+      "Directed":"David Silverman",
+      "Written":"Richard Appel",
+      "airdate":"November 19, 1995",
+      "Usviewers":"15.3[267]"
+   },
+   {  
+      "episode":137,
+      "Title":"Sideshow Bob's Last Gleaming",
+      "Directed":"Dominic Polcino",
+      "Written":"Spike Feresten",
+      "airdate":"November 26, 1995",
+      "Usviewers":"14.2[267]"
+   },
+   {  
+      "episode":138,
+      "Title":"The Simpsons 138th Episode Spectacular",
+      "Directed":"Pound Foolish[A]",
+      "Written":"Penny Wise[A]",
+      "airdate":"December 3, 1995",
+      "Usviewers":"16.4[277]"
+   },
+   {  
+      "episode":139,
+      "Title":"Marge Be Not Proud",
+      "Directed":"Steven Dean Moore",
+      "Written":"Mike Scully",
+      "airdate":"December 17, 1995",
+      "Usviewers":"16.7[277]"
+   },
+   {  
+      "episode":140,
+      "Title":"Team Homer",
+      "Directed":"Mark Kirkland",
+      "Written":"Mike Scully",
+      "airdate":"January 7, 1996",
+      "Usviewers":"16.7[277]"
+   },
+   {  
+      "episode":141,
+      "Title":"Two Bad Neighbors",
+      "Directed":"Wes Archer",
+      "Written":"Ken Keeler",
+      "airdate":"January 14, 1996",
+      "Usviewers":"16.5[277]"
+   },
+   {  
+      "episode":142,
+      "Title":"Scenes from the Class Struggle in Springfield",
+      "Directed":"Susie Dietter",
+      "Written":"Jennifer Crittenden",
+      "airdate":"February 4, 1996",
+      "Usviewers":"14.4[277]"
+   },
+   {  
+      "episode":143,
+      "Title":"Bart the Fink",
+      "Directed":"Jim Reardon",
+      "Written":"Story: Bob Kushell",
+      "airdate":"February 11, 1996",
+      "Usviewers":"15.0[277]"
+   },
+   {  
+      "episode":144,
+      "Title":"Lisa the Iconoclast",
+      "Directed":"Mike B. Anderson",
+      "Written":"Jonathan Collier",
+      "airdate":"February 18, 1996",
+      "Usviewers":"13.4[277]"
+   },
+   {  
+      "episode":145,
+      "Title":"Homer the Smithers",
+      "Directed":"Steven Dean Moore",
+      "Written":"John Swartzwelder",
+      "airdate":"February 25, 1996",
+      "Usviewers":"14.1[277]"
+   },
+   {  
+      "episode":146,
+      "Title":"The Day the Violence Died",
+      "Directed":"Wesley Archer",
+      "Written":"John Swartzwelder",
+      "airdate":"March 17, 1996",
+      "Usviewers":"14.4[286]"
+   },
+   {  
+      "episode":147,
+      "Title":"A Fish Called Selma",
+      "Directed":"Mark Kirkland",
+      "Written":"Jack Barth",
+      "airdate":"March 24, 1996",
+      "Usviewers":"12.9[286]"
+   },
+   {  
+      "episode":148,
+      "Title":"Bart on the Road",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Richard Appel",
+      "airdate":"March 31, 1996",
+      "Usviewers":"11.8[286]"
+   },
+   {  
+      "episode":149,
+      "Title":"22 Short Films About Springfield",
+      "Directed":"Jim Reardon",
+      "Written":"Richard Appel, David S. Cohen, Jonathan Collier, Jennifer Crittenden, Greg Daniels, Brent Forrester, Rachel Pulido, Steve Tompkins, Bill Oakley, Josh Weinstein, Matt Groening & Greg Daniels",
+      "airdate":"April 14, 1996",
+      "Usviewers":"10.5[286]"
+   },
+   {  
+      "episode":150,
+      "Title":"Raging Abe Simpson and His Grumbling Grandson in ",
+      "Directed":"Jeffrey Lynch",
+      "Written":"Jonathan Collier",
+      "airdate":"April 28, 1996",
+      "Usviewers":"13.0[286]"
+   },
+   {  
+      "episode":151,
+      "Title":"Much Apu About Nothing",
+      "Directed":"Susie Dietter",
+      "Written":"David S. Cohen",
+      "airdate":"May 5, 1996",
+      "Usviewers":"11.3[286]"
+   },
+   {  
+      "episode":152,
+      "Title":"Homerpalooza",
+      "Directed":"Wesley Archer",
+      "Written":"Brent Forrester",
+      "airdate":"May 19, 1996",
+      "Usviewers":"12.9[286]"
+   },
+   {  
+      "episode":153,
+      "Title":"Summer of 4 Ft. 2",
+      "Directed":"Mark Kirkland",
+      "Written":"Dan Greaney",
+      "airdate":"May 19, 1996",
+      "Usviewers":"14.7[286]"
+   },
+   {  
+      "episode":154,
+      "Title":"Treehouse of Horror VII",
+      "Directed":"Mike B. Anderson",
+      "Written":"Ken Keeler, Dan Greaney & David S. Cohen",
+      "airdate":"October 27, 1996",
+      "Usviewers":"18.3[295]"
+   },
+   {  
+      "episode":155,
+      "Title":"You Only Move Twice",
+      "Directed":"Mike B. Anderson",
+      "Written":"John Swartzwelder",
+      "airdate":"November 3, 1996",
+      "Usviewers":"13.9[297]"
+   },
+   {  
+      "episode":156,
+      "Title":"The Homer They Fall",
+      "Directed":"Mark Kirkland",
+      "Written":"Jonathan Collier",
+      "airdate":"November 10, 1996",
+      "Usviewers":"17.0[297]"
+   },
+   {  
+      "episode":157,
+      "Title":"Burns, Baby Burns",
+      "Directed":"Jim Reardon",
+      "Written":"Ian Maxtone-Graham",
+      "airdate":"November 17, 1996",
+      "Usviewers":"12.6[297]"
+   },
+   {  
+      "episode":158,
+      "Title":"Bart After Dark",
+      "Directed":"Dominic Polcino",
+      "Written":"Richard Appel",
+      "airdate":"November 24, 1996",
+      "Usviewers":"14.1[297]"
+   },
+   {  
+      "episode":159,
+      "Title":"A Milhouse Divided",
+      "Directed":"Steven Dean Moore",
+      "Written":"Steve Tompkins",
+      "airdate":"December 1, 1996",
+      "Usviewers":"12.8[297]"
+   },
+   {  
+      "episode":160,
+      "Title":"Lisa's Date with Density",
+      "Directed":"Susie Dietter",
+      "Written":"Mike Scully",
+      "airdate":"December 15, 1996",
+      "Usviewers":"N/A"
+   },
+   {  
+      "episode":161,
+      "Title":"Hurricane Neddy",
+      "Directed":"Bob Anderson",
+      "Written":"Steve Young",
+      "airdate":"December 29, 1996",
+      "Usviewers":"N/A"
+   },
+   {  
+      "episode":162,
+      "Title":"El Viaje Misterioso de Nuestro Jomer (The Mysterious Voyage of Homer)",
+      "Directed":"Jim Reardon",
+      "Written":"Ken Keeler",
+      "airdate":"January 5, 1997",
+      "Usviewers":"14.9[305]"
+   },
+   {  
+      "episode":163,
+      "Title":"The Springfield Files",
+      "Directed":"Steven Dean Moore",
+      "Written":"Reid Harrison",
+      "airdate":"January 12, 1997",
+      "Usviewers":"20.9[307]"
+   },
+   {  
+      "episode":164,
+      "Title":"The Twisted World of Marge Simpson",
+      "Directed":"Chuck Sheetz",
+      "Written":"Jennifer Crittenden",
+      "airdate":"January 19, 1997",
+      "Usviewers":"14.0[307]"
+   },
+   {  
+      "episode":165,
+      "Title":"Mountain of Madness",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"February 2, 1997",
+      "Usviewers":"9.1[310]"
+   },
+   {  
+      "episode":166,
+      "Title":"Simpsoncalifragilisticexpiala(Annoyed Grunt)cious",
+      "Directed":"Chuck Sheetz",
+      "Written":"Al Jean & Mike Reiss",
+      "airdate":"February 7, 1997",
+      "Usviewers":"17.7[312]"
+   },
+   {  
+      "episode":167,
+      "Title":"The Itchy & Scratchy & Poochie Show",
+      "Directed":"Steven Dean Moore",
+      "Written":"David S. Cohen",
+      "airdate":"February 9, 1997",
+      "Usviewers":"15.5[314]"
+   },
+   {  
+      "episode":168,
+      "Title":"Homer's Phobia",
+      "Directed":"Mike B. Anderson",
+      "Written":"Ron Hauge",
+      "airdate":"February 16, 1997",
+      "Usviewers":"15.3[316]"
+   },
+   {  
+      "episode":169,
+      "Title":"Brother from Another Series",
+      "Directed":"Pete Michels",
+      "Written":"Ken Keeler",
+      "airdate":"February 23, 1997",
+      "Usviewers":"15.1[316]"
+   },
+   {  
+      "episode":170,
+      "Title":"My Sister, My Sitter",
+      "Directed":"Jim Reardon",
+      "Written":"Dan Greaney",
+      "airdate":"March 2, 1997",
+      "Usviewers":"15.1[316]"
+   },
+   {  
+      "episode":171,
+      "Title":"Homer vs. the Eighteenth Amendment",
+      "Directed":"Bob Anderson",
+      "Written":"John Swartzwelder",
+      "airdate":"March 16, 1997",
+      "Usviewers":"14.6[320]"
+   },
+   {  
+      "episode":172,
+      "Title":"Grade School Confidential",
+      "Directed":"Susie Dietter",
+      "Written":"Rachel Pulido",
+      "airdate":"April 6, 1997",
+      "Usviewers":"13.3[322]"
+   },
+   {  
+      "episode":173,
+      "Title":"The Canine Mutiny",
+      "Directed":"Dominic Polcino",
+      "Written":"Ron Hauge",
+      "airdate":"April 13, 1997",
+      "Usviewers":"N/A"
+   },
+   {  
+      "episode":174,
+      "Title":"The Old Man and the Lisa",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"April 20, 1997",
+      "Usviewers":"14.0[322]"
+   },
+   {  
+      "episode":175,
+      "Title":"In Marge We Trust",
+      "Directed":"Steven Dean Moore",
+      "Written":"Donick Cary",
+      "airdate":"April 27, 1997",
+      "Usviewers":"16.9[322]"
+   },
+   {  
+      "episode":176,
+      "Title":"Homer's Enemy",
+      "Directed":"Jim Reardon",
+      "Written":"John Swartzwelder",
+      "airdate":"May 4, 1997",
+      "Usviewers":"11.8[327]"
+   },
+   {  
+      "episode":177,
+      "Title":"The Simpsons Spin-Off Showcase",
+      "Directed":"Neil Affleck",
+      "Written":"Story: Ken Keeler",
+      "airdate":"May 11, 1997",
+      "Usviewers":"11.6[329]"
+   },
+   {  
+      "episode":178,
+      "Title":"The Secret War of Lisa Simpson",
+      "Directed":"Mike B. Anderson",
+      "Written":"Richard Appel",
+      "airdate":"May 18, 1997",
+      "Usviewers":"12.7[331]"
+   },
+   {  
+      "episode":179,
+      "Title":"The City of New York vs. Homer Simpson",
+      "Directed":"Jim Reardon",
+      "Written":"Ian Maxtone-Graham",
+      "airdate":"September 21, 1997",
+      "Usviewers":"10.5[333]"
+   },
+   {  
+      "episode":180,
+      "Title":"The Principal and the Pauper",
+      "Directed":"Steven Dean Moore",
+      "Written":"Ken Keeler",
+      "airdate":"September 28, 1997",
+      "Usviewers":"14.9[335]"
+   },
+   {  
+      "episode":181,
+      "Title":"Lisa's Sax",
+      "Directed":"Dominic Polcino",
+      "Written":"Al Jean",
+      "airdate":"October 19, 1997",
+      "Usviewers":"12.9[337]"
+   },
+   {  
+      "episode":182,
+      "Title":"Treehouse of Horror VIII",
+      "Directed":"Mark Kirkland",
+      "Written":"Mike Scully, David S. Cohen & Ned Goldreyer",
+      "airdate":"October 26, 1997",
+      "Usviewers":"10.9[339]"
+   },
+   {  
+      "episode":183,
+      "Title":"The Cartridge Family",
+      "Directed":"Pete Michels",
+      "Written":"John Swartzwelder",
+      "airdate":"November 2, 1997",
+      "Usviewers":"10.3[341]"
+   },
+   {  
+      "episode":184,
+      "Title":"Bart Star",
+      "Directed":"Dominic Polcino",
+      "Written":"Donick Cary",
+      "airdate":"November 9, 1997",
+      "Usviewers":"10.6[343]"
+   },
+   {  
+      "episode":185,
+      "Title":"The Two Mrs. Nahasapeemapetilons",
+      "Directed":"Steven Dean Moore",
+      "Written":"Richard Appel",
+      "airdate":"November 16, 1997",
+      "Usviewers":"11.4[345]"
+   },
+   {  
+      "episode":186,
+      "Title":"Lisa the Skeptic",
+      "Directed":"Neil Affleck",
+      "Written":"David S. Cohen",
+      "airdate":"November 23, 1997",
+      "Usviewers":"9.3[347]"
+   },
+   {  
+      "episode":187,
+      "Title":"Realty Bites",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Dan Greaney",
+      "airdate":"December 7, 1997",
+      "Usviewers":"10.6[349]"
+   },
+   {  
+      "episode":188,
+      "Title":"Miracle on Evergreen Terrace",
+      "Directed":"Bob Anderson",
+      "Written":"Ron Hauge",
+      "airdate":"December 21, 1997",
+      "Usviewers":"9.6[351]"
+   },
+   {  
+      "episode":189,
+      "Title":"All Singing, All Dancing",
+      "Directed":"Mark Kirkland",
+      "Written":"Steve O'Donnell",
+      "airdate":"January 4, 1998",
+      "Usviewers":"8.9[353]"
+   },
+   {  
+      "episode":190,
+      "Title":"Bart Carny",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"January 11, 1998",
+      "Usviewers":"11.7[355]"
+   },
+   {  
+      "episode":191,
+      "Title":"The Joy of Sect",
+      "Directed":"Steven Dean Moore",
+      "Written":"Steve O'Donnell",
+      "airdate":"February 8, 1998",
+      "Usviewers":"9.4[357]"
+   },
+   {  
+      "episode":192,
+      "Title":"Das Bus",
+      "Directed":"Pete Michels",
+      "Written":"David S. Cohen",
+      "airdate":"February 15, 1998",
+      "Usviewers":"9.6[359]"
+   },
+   {  
+      "episode":193,
+      "Title":"The Last Temptation of Krust",
+      "Directed":"Mike B. Anderson",
+      "Written":"Donick Cary",
+      "airdate":"February 22, 1998",
+      "Usviewers":"9.5[361]"
+   },
+   {  
+      "episode":194,
+      "Title":"Dumbbell Indemnity",
+      "Directed":"Dominic Polcino",
+      "Written":"Ron Hauge",
+      "airdate":"March 1, 1998",
+      "Usviewers":"10.3[363]"
+   },
+   {  
+      "episode":195,
+      "Title":"Lisa the Simpson",
+      "Directed":"Susie Dietter",
+      "Written":"Ned Goldreyer",
+      "airdate":"March 8, 1998",
+      "Usviewers":"10.4[365]"
+   },
+   {  
+      "episode":196,
+      "Title":"This Little Wiggy",
+      "Directed":"Neil Affleck",
+      "Written":"Dan Greaney",
+      "airdate":"March 22, 1998",
+      "Usviewers":"8.9[367]"
+   },
+   {  
+      "episode":197,
+      "Title":"Simpson Tide",
+      "Directed":"Milton Gray",
+      "Written":"Joshua Sternin & Jeffrey Ventimilia",
+      "airdate":"March 29, 1998",
+      "Usviewers":"9.0[369]"
+   },
+   {  
+      "episode":198,
+      "Title":"The Trouble with Trillions",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Ian Maxtone-Graham",
+      "airdate":"April 5, 1998",
+      "Usviewers":"7.4[371]"
+   },
+   {  
+      "episode":199,
+      "Title":"Girly Edition",
+      "Directed":"Mark Kirkland",
+      "Written":"Larry Doyle",
+      "airdate":"April 19, 1998",
+      "Usviewers":"8.5[373]"
+   },
+   {  
+      "episode":200,
+      "Title":"Trash of the Titans",
+      "Directed":"Jim Reardon",
+      "Written":"Ian Maxtone-Graham",
+      "airdate":"April 26, 1998",
+      "Usviewers":"10.2[375]"
+   },
+   {  
+      "episode":201,
+      "Title":"King of the Hill",
+      "Directed":"Steven Dean Moore",
+      "Written":"John Swartzwelder",
+      "airdate":"May 3, 1998",
+      "Usviewers":"9.2[377]"
+   },
+   {  
+      "episode":202,
+      "Title":"Lost Our Lisa",
+      "Directed":"Pete Michels",
+      "Written":"Brian Scully",
+      "airdate":"May 10, 1998",
+      "Usviewers":"7.6[379]"
+   },
+   {  
+      "episode":203,
+      "Title":"Natural Born Kissers",
+      "Directed":"Klay Hall",
+      "Written":"Matt Selman",
+      "airdate":"May 17, 1998",
+      "Usviewers":"8.6[381]"
+   },
+   {  
+      "episode":204,
+      "Title":"Lard of the Dance",
+      "Directed":"Dominic Polcino",
+      "Written":"Jane O'Brien",
+      "airdate":"August 23, 1998",
+      "Usviewers":"7[382]"
+   },
+   {  
+      "episode":205,
+      "Title":"The Wizard of Evergreen Terrace",
+      "Directed":"Mark Kirkland",
+      "Written":"John Swartzwelder",
+      "airdate":"September 20, 1998",
+      "Usviewers":"7.95[384]"
+   },
+   {  
+      "episode":206,
+      "Title":"Bart the Mother",
+      "Directed":"Steven Dean Moore",
+      "Written":"David S. Cohen",
+      "airdate":"September 27, 1998",
+      "Usviewers":"7.35[386]"
+   },
+   {  
+      "episode":207,
+      "Title":"Treehouse of Horror IX",
+      "Directed":"Steven Dean Moore",
+      "Written":"Donick Cary, Larry Doyle & David S. Cohen",
+      "airdate":"October 25, 1998",
+      "Usviewers":"8.5[388]"
+   },
+   {  
+      "episode":208,
+      "Title":"When You Dish Upon a Star",
+      "Directed":"Pete Michels",
+      "Written":"Richard Appel",
+      "airdate":"November 8, 1998",
+      "Usviewers":"9[390]"
+   },
+   {  
+      "episode":209,
+      "Title":"D'oh-in' in the Wind",
+      "Directed":"Mark Kirkland & Matthew Nastuk",
+      "Written":"Donick Cary",
+      "airdate":"November 15, 1998",
+      "Usviewers":"8.3[392]"
+   },
+   {  
+      "episode":210,
+      "Title":"Lisa Gets an 'A'",
+      "Directed":"Bob Anderson",
+      "Written":"Ian Maxtone-Graham",
+      "airdate":"November 22, 1998",
+      "Usviewers":"8[394]"
+   },
+   {  
+      "episode":211,
+      "Title":"Homer Simpson in: ",
+      "Directed":"Mike B. Anderson",
+      "Written":"John Swartzwelder",
+      "airdate":"December 6, 1998",
+      "Usviewers":"7.2[396]"
+   },
+   {  
+      "episode":212,
+      "Title":"Mayored to the Mob",
+      "Directed":"Swinton O. Scott III",
+      "Written":"Ron Hauge",
+      "airdate":"December 20, 1998",
+      "Usviewers":"8.5[398]"
+   },
+   {  
+      "episode":213,
+      "Title":"Viva Ned Flanders",
+      "Directed":"Neil Affleck",
+      "Written":"David M. Stern",
+      "airdate":"January 10, 1999",
+      "Usviewers":"11.5[400]"
+   },
+   {  
+      "episode":214,
+      "Title":"Wild Barts Can't Be Broken",
+      "Directed":"Mark Ervin",
+      "Written":"Larry Doyle",
+      "airdate":"January 17, 1999",
+      "Usviewers":"8.8[402]"
+   },
+   {  
+      "episode":215,
+      "Title":"Sunday, Cruddy Sunday",
+      "Directed":"Steven Dean Moore",
+      "Written":"Tom Martin, George Meyer, Brian Scully &Mike Scully",
+      "airdate":"January 31, 1999",
+      "Usviewers":"11.5[404]"
+   },
+   {  
+      "episode":216,
+      "Title":"Homer to the Max",
+      "Directed":"Pete Michels",
+      "Written":"John Swartzwelder",
+      "airdate":"February 7, 1999",
+      "Usviewers":"8.3[406]"
+   },
+   {  
+      "episode":217,
+      "Title":"I'm with Cupid",
+      "Directed":"Bob Anderson",
+      "Written":"Dan Greaney",
+      "airdate":"February 14, 1999",
+      "Usviewers":"7.7[408]"
+   },
+   {  
+      "episode":218,
+      "Title":"Marge Simpson in: ",
+      "Directed":"Mark Kirkland",
+      "Written":"David M. Stern",
+      "airdate":"February 21, 1999",
+      "Usviewers":"8.6[410]"
+   },
+   {  
+      "episode":219,
+      "Title":"Make Room for Lisa",
+      "Directed":"Matthew Nastuk",
+      "Written":"Brian Scully",
+      "airdate":"February 28, 1999",
+      "Usviewers":"7.6[412]"
+   },
+   {  
+      "episode":220,
+      "Title":"Maximum Homerdrive",
+      "Directed":"Swinton O. Scott III",
+      "Written":"John Swartzwelder",
+      "airdate":"March 28, 1999",
+      "Usviewers":"15.5[414]"
+   },
+   {  
+      "episode":221,
+      "Title":"Simpsons Bible Stories",
+      "Directed":"Nancy Kruse",
+      "Written":"Tim Long, Larry Doyle & Matt Selman",
+      "airdate":"April 4, 1999",
+      "Usviewers":"12.2[416][417]"
+   },
+   {  
+      "episode":222,
+      "Title":"Mom and Pop Art",
+      "Directed":"Steven Dean Moore",
+      "Written":"Al Jean",
+      "airdate":"April 11, 1999",
+      "Usviewers":"8.5[419]"
+   },
+   {  
+      "episode":223,
+      "Title":"The Old Man and the ",
+      "Directed":"Mark Kirkland",
+      "Written":"Julie Thacker",
+      "airdate":"April 25, 1999",
+      "Usviewers":"6.9[421]"
+   },
+   {  
+      "episode":224,
+      "Title":"Monty Can't Buy Me Love",
+      "Directed":"Mark Ervin",
+      "Written":"John Swartzwelder",
+      "airdate":"May 2, 1999",
+      "Usviewers":"7.26[423]"
+   },
+   {  
+      "episode":225,
+      "Title":"They Saved Lisa's Brain",
+      "Directed":"Pete Michels",
+      "Written":"Matt Selman",
+      "airdate":"May 9, 1999",
+      "Usviewers":"6.8[425]"
+   },
+   {  
+      "episode":226,
+      "Title":"Thirty Minutes over Tokyo",
+      "Directed":"Jim Reardon",
+      "Written":"Donick Cary & Dan Greaney",
+      "airdate":"May 16, 1999",
+      "Usviewers":"8[427]"
+   }
+]
