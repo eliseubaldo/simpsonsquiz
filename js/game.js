@@ -228,12 +228,30 @@ var theQuiz = (function(){
         };
 
 
-        //Jquery Listeners
+        // Check Start button
+        var startButton = function(){
+
+            var name = $('.inputPlayer').val();
+            if(!name == ""){
+                playerName = name;
+                $('.playerPic').css({
+                'background-image':"url(images/icons/player_icon.png)"
+                });
+            } else{
+                $('.playerPic').css({
+                'background-image':"url(images/icons/Bart_icon.png)"
+                });
+            }
+            loadQuiz();
+
+        }
+
+        var clickAnswer = function(answ){
 
             // set answers 
-             $('.pAnswer > p .btn-answer').click(function(){
+             
                 $(this).addClass("btChoice");
-                playerAns = $(this).data("asw");
+                playerAns = answ;
 
                 // computer answer choice
                 var casw = Math.floor(Math.random()*2);
@@ -245,46 +263,39 @@ var theQuiz = (function(){
                     compAns = "after";
                 };
 
-                answer();
-                
-            });
+                answer();                      
 
-            // Check Start button
-            $('#start').click(function(){            
-                
-                var name = $('.inputPlayer').val();
-                if(!name == ""){
-                    playerName = name;
-                    $('.playerPic').css({
-                    'background-image':"url(images/icons/player_icon.png)"
-                    });
-                } else{
-                    $('.playerPic').css({
-                    'background-image':"url(images/icons/Bart_icon.png)"
-                    });
-                }
-                loadQuiz();
+        }
 
-            });
-
-            // Check Restart
-            $('#reStart').click(function(){
-                
+        var clickRestart = function(){
                 $('.endQuiz').fadeOut();
                 $('.computer').removeClass("animated slideOutLeft");
                 $('.yearpick').removeClass("animated slideOutRight");
                 $('.player').removeClass("animated slideOutLeft");
 
                 startGame();
-            });
+        }   
 
 
+        // Constructor
+        var self = {};
 
-
-        // Publics
-        return{
-            initialize: loadQuiz      
+        // Public functions
+        self.initialize = function(){
+          startButton();
         };
+        self.answer = function(answ){
+            clickAnswer(answ);
+        };
+        self.restart = function(){
+            clickRestart();
+        }
+
+
+
+
+        // Return
+        return self;
 
 
 
