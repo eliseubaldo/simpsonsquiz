@@ -23,7 +23,7 @@ var theQuiz = (function(){
 
         var loadQuiz = function(){
 
-            var url = "simpsons.json"
+            var url = "simpsons.json";
 
             req.open("GET", url);
             req.send();
@@ -41,14 +41,14 @@ var theQuiz = (function(){
                     $('.loaderTxt').text("Loading Episodes ...");
                     $('.loader').fadeIn(200);          
                 }
-            }
+            };
         };
 
 
         var loadChars = function(){
 
             //load characters
-            var url = "chars.json"
+            var url = "chars.json";
 
             req.open("GET", url);
             req.send();
@@ -66,7 +66,7 @@ var theQuiz = (function(){
                     $('.loaderTxt').text("Loading Opponents ...");
                     $('.loader').fadeIn(200);          
                 }
-            }
+            };
         };
 
         var startGame = function(){
@@ -106,8 +106,7 @@ var theQuiz = (function(){
             if(currOponent<oponentTotal){
 
                 $('.oponentPic').css({
-                'background-image':"url(images/icons/"+characters[currOponent].filename
-                    +")"
+                'background-image':"url(images/icons/"+characters[currOponent].filename+")"
                 });
 
                 $('.oponentName').text(characters[currOponent].charname);
@@ -165,7 +164,6 @@ var theQuiz = (function(){
             var compYearAirdate = sliceYear(data[rndPickC].airdate);            
  
             compYearAirdate > rndYearPick ? answCorrect = "after" : answCorrect = "before";
-
             if(compAns == answCorrect){
                 $('.computer .answerBadge').addClass("rightAns");
                 $('.computer .answerBadge').text("Right!");
@@ -216,7 +214,7 @@ var theQuiz = (function(){
             currQuestion = 1;
             
 
-        }
+        };
 
 
         var sliceYear = function(strYear){
@@ -232,7 +230,7 @@ var theQuiz = (function(){
         var startButton = function(){
 
             var name = $('.inputPlayer').val();
-            if(!name == ""){
+            if(name){
                 playerName = name;
                 $('.playerPic').css({
                 'background-image':"url(images/icons/player_icon.png)"
@@ -244,7 +242,7 @@ var theQuiz = (function(){
             }
             loadQuiz();
 
-        }
+        };
 
         var clickAnswer = function(answ){
 
@@ -261,11 +259,11 @@ var theQuiz = (function(){
                 }else{
                     $('.cAnswer .btn-answer[data-asw="after"]').addClass("btChoice");
                     compAns = "after";
-                };
+                }
 
                 answer();                      
 
-        }
+        };
 
         var clickRestart = function(){
                 $('.endQuiz').fadeOut();
@@ -274,7 +272,7 @@ var theQuiz = (function(){
                 $('.player').removeClass("animated slideOutLeft");
 
                 startGame();
-        }   
+        };   
 
 
         // Constructor
@@ -289,7 +287,7 @@ var theQuiz = (function(){
         };
         self.restart = function(){
             clickRestart();
-        }
+        };
 
 
 
